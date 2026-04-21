@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="impact-site-verification" content="b2e3b96f-c16b-493f-9088-19cffe5714ee" />
+      </head>
       <body className={`${inter.className} bg-slate-50 text-slate-900`}>
         {children}
       </body>
